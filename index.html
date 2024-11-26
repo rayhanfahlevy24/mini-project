@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mental Health Consultant</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#tips">Tips</a>
+      <a href="#articles">Artikel</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <h2>Selamat Datang</h2>
+    <p>Kesehatan mental adalah aspek penting dalam kehidupan. Kami di sini untuk membantu Anda memahami dan mengatasi masalah ini.</p>
+    <button onclick="scrollToSection('tips')">Lihat Tips</button>
+  </section>
+
+  <section id="tips">
+    <h2>Tips Kesehatan Mental</h2>
+    <ul>
+      <li>Luangkan waktu untuk diri sendiri setiap hari.</li>
+      <li>Lakukan olahraga ringan secara rutin.</li>
+      <li>Bicarakan masalah Anda dengan teman atau keluarga.</li>
+      <li>Coba teknik relaksasi seperti meditasi.</li>
+    </ul>
+  </section>
+
+  <section id="articles"> <!-- Tambahan -->
+    <h2>Artikel Kesehatan Mental</h2>
+    <div class="article">
+      <h3>Penyebab Masalah Kesehatan Mental</h3>
+      <p>
+        Masalah kesehatan mental dapat disebabkan oleh berbagai faktor seperti tekanan pekerjaan, kurangnya dukungan sosial, atau gangguan genetik. 
+        Penting untuk mengenali gejala awal agar dapat ditangani dengan cepat.
+      </p>
+    </div>
+    <div class="article">
+      <h3>Gejala yang Perlu Diwaspadai</h3>
+      <p>
+        Gejala umum termasuk perasaan cemas berlebihan, depresi, gangguan tidur, dan sulit berkonsentrasi. Jika Anda atau seseorang di sekitar Anda
+        mengalami gejala ini, segera cari bantuan profesional.
+      </p>
+    </div>
+    <div class="article">
+      <h3>Cara Mengatasi Masalah Kesehatan Mental</h3>
+      <p>
+        Terapkan gaya hidup sehat, seperti olahraga rutin, tidur cukup, dan berbicara dengan konselor atau terapis. Jangan ragu untuk berbagi masalah Anda.
+      </p>
+    </div>
+  </section>  
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Jika Anda butuh bantuan, hubungi kami melalui:</p>
+    <form>
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mental Health Consultant</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
